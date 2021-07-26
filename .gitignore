@@ -7,7 +7,6 @@
 
 
 /dist/
-electron-builder.yml
 
 # testing
 /coverage
