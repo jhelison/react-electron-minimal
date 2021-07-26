@@ -1,4 +1,4 @@
-# Mininimal electron react app
+# Minimal electron react app
 
 This is a minimal files to run a react-electron app for windows.
 
