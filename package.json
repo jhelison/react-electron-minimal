@@ -22,7 +22,7 @@
     "react-eject": "react-scripts eject",
     "electron-build": "electron-builder",
     "release": "yarn react-build && electron-builder --publish=always",
-    "build": "yarn react-build && yarn electron-build",
+    "build": "yarn react-build && yarn electron-build --publish=never",
     "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
@@ -53,5 +53,9 @@
     "appId": "app"
   },
   "main": "public/electron.js",
-  "homepage": "./"
+  "homepage": "./",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jhelison/react-electron-minimal.git"
+  }
 }

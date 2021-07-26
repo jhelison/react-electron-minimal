@@ -1,14 +1,17 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import "./App.css"
 
-// const electron = window.require("electron")
+import UpdateMessage from "./UpdateMessage"
+
+
 
 function App() {
-    // var window = electron.remote.getCurrentWindow()
-
     return (
         <div className="App">
-            <header className="App-header">Working!</header>
+            <header className="App-header">
+                Electron app with auto update!
+                <UpdateMessage />
+            </header>
         </div>
     )
 }

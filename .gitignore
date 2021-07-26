@@ -5,7 +5,9 @@
 /.pnp
 .pnp.js
 
+
 /dist/
+electron-builder.yml
 
 # testing
 /coverage

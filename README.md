@@ -20,3 +20,18 @@ Exemple:
 const electron = window.require("electron")
 var window = electron.remote.getCurrentWindow()
 ```
+
+## Electron auto updater
+
+To use the electron auto update, on the root of the project the file add `electron-builder.yml` whit this contents
+
+```
+appId: com.example.ElectronAutoUpdate
+publish:
+  provider: github
+  token: [YOUR GITHUB ACCESS TOKEN]
+```
+
+appId can be any name.
+
+The repository part of the pack.json also must be changed to your repository. To release a version, use `yarn release`
