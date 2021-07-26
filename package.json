@@ -1,7 +1,13 @@
 {
-  "name": "app",
-  "version": "0.2.0",
+  "name": "electron-react-minimal",
+  "version": "0.3.0",
+  "description": "A versão mais simples possivel de um Electron/React",
   "private": true,
+  "author": {
+    "name" : "Jhelison Gabriel Lima Uchoa",
+    "email" : "jhelisong@gmail.com",
+    "url" : "https://github.com/jhelison"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -50,12 +56,16 @@
     "wait-on": "^6.0.0"
   },
   "build": {
-    "appId": "app"
+    "appId": "electron-react-minimal"
   },
   "main": "public/electron.js",
   "homepage": "./",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/jhelison/react-electron-minimal.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhelison/react-electron-minimal/issues"
   }
 }
