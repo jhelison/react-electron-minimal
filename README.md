@@ -14,7 +14,7 @@ To build the executable, run `yarn build` it will build the installer and the ex
 
 To acess electron in the project page, use `const electron = window.require("electron")`, the acess the module you want to acess.
 
-Exemple:
+Example:
 
 ```javascript
 const electron = window.require("electron")
@@ -24,4 +24,7 @@ var window = electron.remote.getCurrentWindow()
 ## Electron auto updater
 
 To use the electron auto update, on the root of the project the file add `GH_TOKEN` as environment variable with your github token.
-The repository part of the package.json also must be changed to your repository. To release a version, use `yarn release`
+The repository part of the package.json also must be changed to your repository. To release a version, use `yarn release`.
+
+
+**Remember that:** New releases enter github as a draft.
