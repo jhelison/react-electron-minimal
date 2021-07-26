@@ -39,6 +39,7 @@ const UpdateMessage = (props) => {
 
     return (
         <React.Fragment>
+            <h3>New realease</h3>
             <h3>{version}</h3>
             <h3>{updateMessage}</h3>
             {updateMessage === "Update downloaded. Restart now?" ? (
