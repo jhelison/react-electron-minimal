@@ -1,9 +1,7 @@
-import React from "react"
-import "./App.css"
+import React from 'react'
+import './App.css'
 
-import UpdateMessage from "./UpdateMessage"
-
-
+import UpdateMessage from './UpdateMessage'
 
 function App() {
     return (
